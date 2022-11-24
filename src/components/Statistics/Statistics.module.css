@@ -1,0 +1,33 @@
+.statistics { 
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: teal;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+}
+
+.statList {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: rgb(17, 164, 169);
+    font-style: italic;
+}

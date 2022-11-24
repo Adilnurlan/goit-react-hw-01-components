@@ -1,4 +1,4 @@
-.friendList {
+.transactionHistory {
     width: 400px;
     margin: 0 auto;
     padding: 30px;
@@ -6,7 +6,9 @@
     background-color: teal;
     border: 1px solid yellowgreen;
     border-radius: 5px;
-    text-align: center;
-    list-style: none;
 }
 
+tr {
+    text-align: center;
+    line-height: 20px;
+}
